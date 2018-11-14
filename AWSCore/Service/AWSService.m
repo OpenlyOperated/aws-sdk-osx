@@ -153,6 +153,7 @@ NSString *const AWSServiceNameSimpleDB = @"sdb";
 NSString *const AWSServiceNameSNS = @"sns";
 NSString *const AWSServiceNameSQS = @"sqs";
 NSString *const AWSServiceNameSTS = @"sts";
+NSString *const AWSServiceNameCloudTrail = @"cloudtrail";
 
 @implementation AWSEndpoint
 
