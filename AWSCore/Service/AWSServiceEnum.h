@@ -51,6 +51,7 @@ typedef NS_ENUM(NSInteger, AWSServiceType) {
     AWSServiceSNS,
     AWSServiceSQS,
     AWSServiceSTS,
+    AWSServiceCloudTrail,
 };
 
 #endif
