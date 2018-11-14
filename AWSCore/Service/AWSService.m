@@ -272,6 +272,8 @@ NSString *const AWSServiceNameCloudTrail = @"cloudtrail";
             return AWSServiceNameSQS;
         case AWSServiceSTS:
             return AWSServiceNameSTS;
+        case AWSServiceCloudTrail:
+            return AWSServiceNameCloudTrail;
         default:
             return nil;
     }
