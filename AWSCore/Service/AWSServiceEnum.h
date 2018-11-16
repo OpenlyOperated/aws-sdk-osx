@@ -28,6 +28,7 @@ typedef NS_ENUM(NSInteger, AWSRegionType) {
     AWSRegionAPSoutheast1 NS_SWIFT_NAME(APSoutheast1),
     AWSRegionAPNortheast1 NS_SWIFT_NAME(APNortheast1),
     AWSRegionAPNortheast2 NS_SWIFT_NAME(APNortheast2),
+    AWSRegionAPNortheast3 NS_SWIFT_NAME(APNortheast3),
     AWSRegionAPSoutheast2 NS_SWIFT_NAME(APSoutheast2),
     AWSRegionAPSouth1 NS_SWIFT_NAME(APSouth1),
     AWSRegionSAEast1 NS_SWIFT_NAME(SAEast1),
