@@ -17,18 +17,26 @@
 #define AWSiOSSDK_AWSServiceEnum_h
 
 typedef NS_ENUM(NSInteger, AWSRegionType) {
-    AWSRegionUnknown,
-    AWSRegionUSEast1,
-    AWSRegionUSWest1,
-    AWSRegionUSWest2,
-    AWSRegionEUWest1,
-    AWSRegionEUCentral1,
-    AWSRegionAPSoutheast1,
-    AWSRegionAPNortheast1,
-    AWSRegionAPSoutheast2,
-    AWSRegionSAEast1,
-    AWSRegionCNNorth1,
-    AWSRegionUSGovWest1,
+    AWSRegionUnknown NS_SWIFT_NAME(Unknown),
+    AWSRegionUSEast1 NS_SWIFT_NAME(USEast1),
+    AWSRegionUSEast2 NS_SWIFT_NAME(USEast2),
+    AWSRegionUSWest1 NS_SWIFT_NAME(USWest1),
+    AWSRegionUSWest2 NS_SWIFT_NAME(USWest2),
+    AWSRegionEUWest1 NS_SWIFT_NAME(EUWest1),
+    AWSRegionEUWest2 NS_SWIFT_NAME(EUWest2),
+    AWSRegionEUCentral1 NS_SWIFT_NAME(EUCentral1),
+    AWSRegionAPSoutheast1 NS_SWIFT_NAME(APSoutheast1),
+    AWSRegionAPNortheast1 NS_SWIFT_NAME(APNortheast1),
+    AWSRegionAPNortheast2 NS_SWIFT_NAME(APNortheast2),
+    AWSRegionAPSoutheast2 NS_SWIFT_NAME(APSoutheast2),
+    AWSRegionAPSouth1 NS_SWIFT_NAME(APSouth1),
+    AWSRegionSAEast1 NS_SWIFT_NAME(SAEast1),
+    AWSRegionCNNorth1 NS_SWIFT_NAME(CNNorth1),
+    AWSRegionCACentral1 NS_SWIFT_NAME(CACentral1),
+    AWSRegionUSGovWest1 NS_SWIFT_NAME(USGovWest1),
+    AWSRegionCNNorthWest1 NS_SWIFT_NAME(CNNorthWest1),
+    AWSRegionEUWest3 NS_SWIFT_NAME(EUWest3),
+    AWSRegionUSGovEast1 NS_SWIFT_NAME(USGovEast1),
 };
 
 typedef NS_ENUM(NSInteger, AWSServiceType) {
