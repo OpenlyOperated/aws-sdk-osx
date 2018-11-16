@@ -133,6 +133,7 @@ static NSString *const AWSRegionNameEUCentral1 = @"eu-central-1";
 static NSString *const AWSRegionNameAPSoutheast1 = @"ap-southeast-1";
 static NSString *const AWSRegionNameAPNortheast1 = @"ap-northeast-1";
 static NSString *const AWSRegionNameAPNortheast2 = @"ap-northeast-2";
+static NSString *const AWSRegionNameAPNortheast3 = @"ap-northeast-3";
 static NSString *const AWSRegionNameAPSoutheast2 = @"ap-southeast-2";
 static NSString *const AWSRegionNameAPSouth1 = @"ap-south-1";
 static NSString *const AWSRegionNameSAEast1 = @"sa-east-1";
@@ -236,6 +237,8 @@ NSString *const AWSServiceNameCloudTrail = @"cloudtrail";
             return AWSRegionNameAPNortheast1;
         case AWSRegionAPNortheast2:
             return AWSRegionNameAPNortheast2;
+        case AWSRegionAPNortheast3:
+            return AWSRegionNameAPNortheast3;
         case AWSRegionAPSouth1:
             return AWSRegionNameAPSouth1;
         case AWSRegionSAEast1:
