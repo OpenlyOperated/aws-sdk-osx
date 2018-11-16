@@ -122,18 +122,25 @@
 @end
 
 #pragma mark - AWSEndpoint
-
-NSString *const AWSRegionNameUSEast1 = @"us-east-1";
-NSString *const AWSRegionNameUSWest2 = @"us-west-2";
-NSString *const AWSRegionNameUSWest1 = @"us-west-1";
-NSString *const AWSRegionNameEUWest1 = @"eu-west-1";
-NSString *const AWSRegionNameEUCentral1 = @"eu-central-1";
-NSString *const AWSRegionNameAPSoutheast1 = @"ap-southeast-1";
-NSString *const AWSRegionNameAPNortheast1 = @"ap-northeast-1";
-NSString *const AWSRegionNameAPSoutheast2 = @"ap-southeast-2";
-NSString *const AWSRegionNameSAEast1 = @"sa-east-1";
-NSString *const AWSRegionNameCNNorth1 = @"cn-north-1";
-NSString *const AWSRegionNameUSGovWest1 = @"us-gov-west-1";
+static NSString *const AWSRegionNameUSEast1 = @"us-east-1";
+static NSString *const AWSRegionNameUSEast2 = @"us-east-2";
+static NSString *const AWSRegionNameUSWest2 = @"us-west-2";
+static NSString *const AWSRegionNameUSWest1 = @"us-west-1";
+static NSString *const AWSRegionNameEUWest1 = @"eu-west-1";
+static NSString *const AWSRegionNameEUWest2 = @"eu-west-2";
+static NSString *const AWSRegionNameEUWest3 = @"eu-west-3";
+static NSString *const AWSRegionNameEUCentral1 = @"eu-central-1";
+static NSString *const AWSRegionNameAPSoutheast1 = @"ap-southeast-1";
+static NSString *const AWSRegionNameAPNortheast1 = @"ap-northeast-1";
+static NSString *const AWSRegionNameAPNortheast2 = @"ap-northeast-2";
+static NSString *const AWSRegionNameAPSoutheast2 = @"ap-southeast-2";
+static NSString *const AWSRegionNameAPSouth1 = @"ap-south-1";
+static NSString *const AWSRegionNameSAEast1 = @"sa-east-1";
+static NSString *const AWSRegionNameCNNorth1 = @"cn-north-1";
+static NSString *const AWSRegionNameCNNorthWest1 = @"cn-northwest-1";
+static NSString *const AWSRegionNameCACentral1 = @"ca-central-1";
+static NSString *const AWSRegionNameUSGovWest1 = @"us-gov-west-1";
+static NSString *const AWSRegionNameUSGovEast1 = @"us-gov-east-1";
 
 NSString *const AWSServiceNameAPIGateway = @"execute-api";
 NSString *const AWSServiceNameAutoScaling = @"autoscaling";
@@ -209,12 +216,16 @@ NSString *const AWSServiceNameCloudTrail = @"cloudtrail";
     switch (regionType) {
         case AWSRegionUSEast1:
             return AWSRegionNameUSEast1;
+        case AWSRegionUSEast2:
+            return AWSRegionNameUSEast2;
         case AWSRegionUSWest2:
             return AWSRegionNameUSWest2;
         case AWSRegionUSWest1:
             return AWSRegionNameUSWest1;
         case AWSRegionEUWest1:
             return AWSRegionNameEUWest1;
+        case AWSRegionEUWest2:
+            return AWSRegionNameEUWest2;
         case AWSRegionEUCentral1:
             return AWSRegionNameEUCentral1;
         case AWSRegionAPSoutheast1:
@@ -223,12 +234,24 @@ NSString *const AWSServiceNameCloudTrail = @"cloudtrail";
             return AWSRegionNameAPSoutheast2;
         case AWSRegionAPNortheast1:
             return AWSRegionNameAPNortheast1;
+        case AWSRegionAPNortheast2:
+            return AWSRegionNameAPNortheast2;
+        case AWSRegionAPSouth1:
+            return AWSRegionNameAPSouth1;
         case AWSRegionSAEast1:
             return AWSRegionNameSAEast1;
         case AWSRegionCNNorth1:
             return AWSRegionNameCNNorth1;
+        case AWSRegionCACentral1:
+            return AWSRegionNameCACentral1;
         case AWSRegionUSGovWest1:
             return AWSRegionNameUSGovWest1;
+        case AWSRegionCNNorthWest1:
+            return AWSRegionNameCNNorthWest1;
+        case AWSRegionEUWest3:
+            return AWSRegionNameEUWest3;
+        case AWSRegionUSGovEast1:
+            return AWSRegionNameUSGovEast1;
         default:
             return nil;
     }
